@@ -1,0 +1,10 @@
+GET http://127.0.0.1:8080/tarefas
+
+###
+POST http://127.0.0.1:8080/tarefas
+Content-Type: application/json
+
+{
+    "id" : 2,
+    "descricao" : "Novo Objeto"
+}
